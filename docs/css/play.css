@@ -114,9 +114,10 @@ nav ul li:hover ul {
   @media screen and (min-width: 700px) {
     nav ul{
       flex-direction: row;
-      justify-content: space-around;}
+      justify-content: space-around;
+    }
    ul li{
-     flex: 0 0 6rem;
+     flex: 1 0 10rem;
      position: relative;
      width: 6rem;
      text-align: center;}
@@ -127,10 +128,13 @@ nav ul li:hover ul {
     li ul{
       display: none;
       position: absolute;
-      background-color: rgb(205, 225, 236);}
+      background-color: rgb(205, 225, 236);
+    }
     nav ul li:hover ul {
+      width: 100%;
       display: flex;
-      flex-direction: column;}
+      flex-direction: column;
+    }
 
       h1 a, h2 a {
         position: absolute;
