@@ -247,7 +247,7 @@ span.stage_directions_inline {
 
 } */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 480px) {
   /* h1 a, h2 a {
     position: absolute;
     top: -180px;
