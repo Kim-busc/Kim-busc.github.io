@@ -1,0 +1,92 @@
+body{
+  background: rgb(195, 218, 240);
+  margin: 60px 0 0 0;
+  font-family: verdana, san-serif;
+}
+
+h1 {
+  color:rgb(230, 77, 77);
+  text-align: center;
+  font-size: 180%;
+  font-family: "Acumin Variable Concept";
+  background-color: #f5b0b3;
+  color: white;
+  padding: 15px 0;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
+
+
+.cover{
+  float: none;
+  width: auto;
+}
+
+.intro{
+  width: auto;
+  float: none;
+}
+@media screen and (max-width: 1300px) {
+.cover {
+  float:left;
+  width: 48%;
+  margin-top: 40px;
+}
+.intro {float:right;
+  width: 48%;}
+}
+
+@media screen and (max-width: 800px) {
+.cover {
+  float:none;
+  width: auto;
+}
+.intro {float:none;
+  width: auto;}
+}
+
+
+
+.gotoplay a{
+  text-decoration: none;
+  color:rgb(230, 77, 77);
+}
+
+
+h2{color:rgb(230, 77, 77);
+text-align: center;
+font-size: 1.6em;
+font-family: "Acumin Variable Concept"
+}
+
+p {
+   margin-top: 0;
+   margin-bottom: 18px;
+   border: 1px solid #c3353a;
+   padding: 20px;
+}
+
+.first {
+  background-color: #c3353a;
+  color: white;
+  line-height: 1.4;
+}
+
+img {width: 100%;}
+
+
+.everything {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+
+@media screen and (min-width: 1300px) {
+.everything{
+  width: 40%;
+}
+}
