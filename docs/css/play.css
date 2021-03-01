@@ -42,6 +42,7 @@ top:-320px;
 
 section.dramatis {
   line-height: 2;
+  margin-top: 100px;
 }
 
 section.play {
@@ -263,7 +264,5 @@ padding: 50px;
 section.play{
   font-size: 100%;
 }
-body{
-  margin-top: 100px;
-}
+
 }
